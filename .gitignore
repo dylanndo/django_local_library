@@ -133,4 +133,7 @@ dmypy.json
 
 # Database
 *.sqlite3
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0af4dd41a2484fa68046caae7e3737ed0c8bb8f2
