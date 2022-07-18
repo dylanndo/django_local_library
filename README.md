@@ -2,7 +2,7 @@
 Mozilla Django Tutorial
 
 ## Dev Setup
-* `brew install poetry`
+* `brew install poetry postgres`
 * `poetry init`
 * `poetry add Django`
 * `ssh-keygen -t rsa -b 2048`
