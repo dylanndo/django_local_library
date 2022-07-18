@@ -1,6 +1,8 @@
 # locallibrary
 Mozilla Django Tutorial
 
+https://agile-badlands-17432.herokuapp.com/catalog/
+
 ## Dev Setup
 * `brew install poetry postgres`
 * `poetry init`
