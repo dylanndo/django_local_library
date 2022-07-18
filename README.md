@@ -21,6 +21,8 @@ python3 manage.py runserver
 ```bash
 poetry export --without-hashes -f requirements.txt --output requirements.txt
 git push heroku main
+heroku run python  manage.py migrate
+heroku run python manage.py createsuperuser
 ```
 
 add 'agile-badlands-17432.herokuapp.com' to ALLOWED_HOSTS in settings.py
