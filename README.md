@@ -18,5 +18,9 @@ python3 manage.py migrate
 python3 manage.py runserver
 ```
 ## Heroku Notes
-```poetry export --without-hashes -f requirements.txt --output requirements.txt
+```bash
+poetry export --without-hashes -f requirements.txt --output requirements.txt
+git push heroku main
 ```
+
+add 'agile-badlands-17432.herokuapp.com' to ALLOWED_HOSTS in settings.py
